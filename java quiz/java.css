@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.quiz{
+    overflow-x: hidden;
+}
+.container img{
+    width: 250px;
+}
+.collapse{
+    margin-left: 400px;
+}
+
+.collapse a{
+    margin-left: 15px;
+    transition: 0.7s;
+}
+.collapse a:hover{
+    transition: 0.7s;
+    color: #FCC822;
+}
+.collapse .dropdown{
+    margin-left: 20px;
+}
+#userimage{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    margin-left: 35px;
+}
+.dropdown-menu li a{
+    margin-left: 35px;
+}
+
+.dropdown-menu li a:hover{
+    background-color: #fff;
+    width: 50px;
+    color: #FCC822;
+}
+.lname{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.lname h1{
+    text-decoration: underline;
+    font-size: 50px;
+    color: #a80707;
+}
+.ques p{
+    position: relative;left: 10%;top: 10%;
+}
+.ques input{
+    position: relative;left: 10%;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #FCC822;
+    color: #FCC822;
+    padding-left:20px ;
+    padding-top: -15px;
+}
+.sub button{
+    outline: none;
+    width: 118.73px;
+    height: 40.78px;
+    color: #fff;
+    background-color: #FCC822;
+    border: 1px solid #FCC822;
+    transition: 1s;
+    transform: translateY(20px);
+    position: relative;left: 10%;
+}
+.sub button:hover{
+color: #FCC822;
+background-color: #fff;
+border: 1px solid #FCC822;
+transition: 1s;
+transform: translateY(20px)
+}

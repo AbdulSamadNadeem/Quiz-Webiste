@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C++ Quiz</title>
+    <link rel="stylesheet" href="c.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <nav class="navbar navbar-expand-lg">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="../images/Group 129.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link " aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li >
+                      <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="username">
+                          
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><img src="" id="userimage"></li>
+                          <hr>
+                          <li><a class="dropdown-item" href="../index.html">Logout</a></li>
+                          
+                        </ul>
+                      </li>
+                    </li>
+    
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div class="quiz">
+        <div class="lname">
+            <h1>C++</h1>
+        </div>
+        <div class="ques">
+            <p>1. Which of the following is the correct syntax to declare a pointer in C?</p>
+            <p> a. int *ptr;</p>
+            <p> b. *int ptr;</p>
+            <p> c. ptr *int;</p>
+            <p> d. int ptr;</p>
+            <input type="text" name="q1" placeholder="Enter answer">
+    
+            <p>2. What is the result of `sizeof(char)` in C?</p>
+            <p> a. 1</p>
+            <p> b. 2</p>
+            <p> c. 4</p>
+            <p> d. Depends on the system architecture</p>
+            <input type="text" name="q2" placeholder="Enter answer">
+    
+            <p>3. How do you allocate memory dynamically in C?</p>
+            <p> a. malloc()</p>
+            <p> b. allocate()</p>
+            <p> c. new()</p>
+            <p> d. mallocate()</p>
+            <input type="text" name="q3" placeholder="Enter answer">
+    
+            <p>4. Which keyword is used to exit from a loop in C?</p>
+            <p> a. exit</p>
+            <p> b. break</p>
+            <p> c. continue</p>
+            <p> d. stop</p>
+            <input type="text" name="q4" placeholder="Enter answer">
+    
+            <p>5. How do you include a header file `stdio.h` in C?</p>
+            <p> a. #include &lt;stdio&gt;</p>
+            <p> b. #include &lt;stdio.h&gt;</p>
+            <p> c. #include "stdio.h"</p>
+            <p> d. #include &lt;stdio_h&gt;</p>
+            <input type="text" name="q5" placeholder="Enter answer">
+    
+            <p>6. What is the output of `printf("%d", sizeof(float));` in C?</p>
+            <p> a. 2</p>
+            <p> b. 4</p>
+            <p> c. 8</p>
+            <p> d. 16</p>
+            <input type="text" name="q6" placeholder="Enter answer">
+    
+            <p>7. How do you define a constant in C?</p>
+            <p> a. const int x = 5;</p>
+            <p> b. final int x = 5;</p>
+            <p> c. int const x = 5;</p>
+            <p> d. Both a and c</p>
+            <input type="text" name="q7" placeholder="Enter answer">
+    
+            <p>8. What is the format specifier for printing a double value in C?</p>
+            <p> a. %d</p>
+            <p> b. %f</p>
+            <p> c. %lf</p>
+            <p> d. %g</p>
+            <input type="text" name="q8" placeholder="Enter answer">
+    
+            <p>9. How do you read a character from the standard input in C?</p>
+            <p> a. scanf("%s", &ch);</p>
+            <p> b. getch(ch);</p>
+            <p> c. getchar();</p>
+            <p> d. read(ch);</p>
+            <input type="text" name="q9" placeholder="Enter answer">
+    
+            <p>10. What is the result of `5 / 2` in C?</p>
+            <p> a. 2.5</p>
+            <p> b. 2</p>
+            <p> c. 2.0</p>
+            <p> d. Error</p>
+            <input type="text" name="q10" placeholder="Enter answer">
+        </div>
+        <div class="sub">
+            <button type="submit">Submit Answers</button>
+        </div>
+
+    <script src="c.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

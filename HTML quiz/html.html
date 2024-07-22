@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-Quiz</title>
+    <link rel="stylesheet" href="html.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <nav class="navbar navbar-expand-lg">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="../images/Group 129.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link " aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li >
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="username">
+                          
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><img src="" id="userimage"></li>
+                          <hr>
+                          <li><a class="dropdown-item" href="../index.html">Logout</a></li>
+                          
+                        </ul>
+                      </li>
+                    </li>
+    
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div class="quiz">
+        <div class="lname">
+            <h1>HT<span>ML</span></h1>
+      </div>
+      <div class="ques">
+        <p>1. What does HTML stand for?</p>
+        <p> a. Hyper Text Markup Language</p>
+        <p> b. High Tech Markup Language</p>
+        <p> c. Home Tool Markup Language</p>
+        <p> d. Hyperlink Text Markup Language</p>
+        <input type="text" name="q1" placeholder="Enter answer">
+
+        <p>2. Which tag is used to define an unordered list in HTML?</p>
+        <p> a. &lt;ul&gt;</p>
+        <p> b. &lt;ol&gt;</p>
+        <p> c. &lt;li&gt;</p>
+        <p> d. &lt;ul&gt; and &lt;li&gt;</p>
+        <input type="text" name="q2" placeholder="Enter answer">
+
+        <p>3. Which tag is used to define a hyperlink in HTML?</p>
+        <p> a. &lt;link&gt;</p>
+        <p> b. &lt;a&gt;</p>
+        <p> c. &lt;href&gt;</p>
+        <p> d. &lt;hyperlink&gt;</p>
+        <input type="text" name="q3" placeholder="Enter answer">
+
+        <p>4. What is the correct HTML for creating a checkbox?</p>
+        <p> a. &lt;checkbox&gt;</p>
+        <p> b. &lt;input type="check"&gt;</p>
+        <p> c. &lt;input type="checkbox"&gt;</p>
+        <p> d. &lt;check&gt;</p>
+        <input type="text" name="q4" placeholder="Enter answer">
+
+        <p>5. Which attribute is used to define inline styles in HTML?</p>
+        <p> a. style</p>
+        <p> b. css</p>
+        <p> c. class</p>
+        <p> d. script</p>
+        <input type="text" name="q5" placeholder="Enter answer">
+
+        <p>6. What does the `<img>` tag represent in HTML?</p>
+        <p> a. A clickable button</p>
+        <p> b. An image</p>
+        <p> c. A link</p>
+        <p> d. An input field</p>
+        <input type="text" name="q6" placeholder="Enter answer">
+
+        <p>7. Which tag is used to define a table row in HTML?</p>
+        <p> a. &lt;tr&gt;</p>
+        <p> b. &lt;table&gt;</p>
+        <p> c. &lt;td&gt;</p>
+        <p> d. &lt;th&gt;</p>
+        <input type="text" name="q7" placeholder="Enter answer">
+
+        <p>8. How can you open a link in a new tab/window in HTML?</p>
+        <p> a. &lt;a href="url" target="_self"&gt;</p>
+        <p> b. &lt;a href="url" target="_top"&gt;</p>
+        <p> c. &lt;a href="url" target="_blank"&gt;</p>
+        <p> d. &lt;a href="url" target="_parent"&gt;</p>
+        <input type="text" name="q8" placeholder="Enter answer">
+
+        <p>9. What does the `<br>` tag do in HTML?</p>
+        <p> a. Breaks the page into sections</p>
+        <p> b. Adds a line break</p>
+        <p> c. Creates a clickable button</p>
+        <p> d. None of the above</p>
+        <input type="text" name="q9" placeholder="Enter answer">
+
+        <p>10. Which HTML attribute specifies an alternate text for an image, if the image cannot be displayed?</p>
+        <p> a. title</p>
+        <p> b. alt</p>
+        <p> c. src</p>
+        <p> d. href</p>
+        <input type="text" name="q10" placeholder="Enter answer">
+      </div>
+      <div class="sub">
+        <button type="submit">Submit Answers</button>
+    </div>
+    
+    
+
+    <script src="html.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
